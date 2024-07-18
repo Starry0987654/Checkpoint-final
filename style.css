@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  img {
+    max-height: 100%;
+    
+
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .cart {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  
+  .like-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    max-height: 20px;
+    max-width: 10px ; 
+    }  
+
+  
+  .like-btn.loved {
+    background-color: red;
+  }
+  
